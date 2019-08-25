@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,800,900&display=swap');
+
+body {
+  font-family: 'Muli', sans-serif;
+
+}
+* {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none!important;
+  list-style: none;
+  color: #2f2f2f;
+}
+
+*:hover, *:focus {
+  outline: none!important;
+}
+
+.padding-top-bottom {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.title-section {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+/* HEADER */
+.logo-responsive {
+  display: none;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.nav-custom {
+  color: #fff!important;
+  padding-top: 0;
+  transition: .5s;
+  padding-bottom: 0;
+  font-weight: 600;
+  padding-left: 0!important;
+  padding-right: 2rem!important;
+}
+
+.nav-custom:hover {
+  color: #13acbc!important;
+  transition: .5s;
+}
+
+.item-contact {
+  display: none;
+}
+
+.option-nav {
+  position: absolute;
+display:none;
+  transition: .5s;
+
+}
+
+.link-product {
+  position: relative;
+  transition: .5s;
+}
+
+.link-product:hover .option-nav {
+  display: block;
+  transition: .5s;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img{
+  width: 12rem;
+}
+
+.nav-flex {
+  display: flex;
+  /* justify-content: flex-end; */
+    width: 100%;
+  align-items: center;
+  margin-left: 3rem;
+}
+/* BANNER */
+.banner-slick {
+  margin-bottom: 0!important;
+}
+
+.img-banner img {
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  height: 32rem;
+  box-shadow: 0 10px 50px -5px rgba(0,0,0,.4);
+  object-fit: cover;
+}
+
+
+.item-banner {
+  height: 100vh;
+  position: relative;
+}
+
+.mask-banner {
+  position: absolute;
+  top: 0;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: #00a6d2;
+}
+
+.img-banner {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  left: 52%;
+  /* top: 18%; */
+  width: 100%;
+  align-items: flex-end;
+  height: 100%;
+  /* object-fit: cover; */
+  /* 
+  justify-content: flex-end; */
+}
+.slick-dots {
+  bottom: 1rem;
+}
+
+.slick-dots li button:before {
+  height: 12px;
+  background: #f8f9fa;
+  content: ''!important;
+}
+
+.text-banner {
+  width: 55%;
+  margin-left: 8rem;
+
+
+}
+
+.title-banner {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+
+}
+
+.subtitle-banner {
+color: #fff;
+font-size: 1.5rem;
+}
+
+/* CLIENTS */
+
+.item-client img {
+  width: 10rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+.flex-client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
