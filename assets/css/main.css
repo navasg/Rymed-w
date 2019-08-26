@@ -25,7 +25,7 @@ body {
 .title-section {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-weight: 900;
 }
 
@@ -155,9 +155,29 @@ color: #fff;
 font-size: 1.5rem;
 }
 
-/* PRODUCTS */
+/* SERVICES */
 
+.item-service {
+  text-align: center;
+}
 
+.icon-service img{
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.item-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.category {
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #00a6d2;
+}
 
 /* CLIENTS */
 
@@ -272,12 +292,13 @@ label {
 }
 
 .title-product {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .description-product p {
   font-size: 1rem;
+  color: #828282;
 }
 
 /* TESTIMONIE */
@@ -323,6 +344,9 @@ label {
   background: #40bcdde6;
 }
 
+
+
+
 /* FOOTER */ 
 
 .logo-footer {
@@ -367,3 +391,4 @@ justify-content: center;
   color: #00a6d2;
   text-decoration: none;
 }
+
