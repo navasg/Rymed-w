@@ -25,6 +25,7 @@ body {
 .title-section {
   text-align: center;
   font-size: 2.5rem;
+  margin-bottom: 2rem;
   font-weight: 900;
 }
 
@@ -49,7 +50,7 @@ header {
 }
 
 .nav-custom:hover {
-  color: #13acbc!important;
+  color: #2f2f2f!important;
   transition: .5s;
 }
 
@@ -96,6 +97,7 @@ display:none;
 
 .img-banner img {
   position: absolute;
+  border-radius: 5px;
   z-index: 1;
   width: 45%;
   height: 32rem;
@@ -132,15 +134,7 @@ display:none;
   /* 
   justify-content: flex-end; */
 }
-.slick-dots {
-  bottom: 1rem;
-}
 
-.slick-dots li button:before {
-  height: 12px;
-  background: #f8f9fa;
-  content: ''!important;
-}
 
 .text-banner {
   width: 55%;
@@ -161,6 +155,10 @@ color: #fff;
 font-size: 1.5rem;
 }
 
+/* PRODUCTS */
+
+
+
 /* CLIENTS */
 
 .item-client img {
@@ -173,4 +171,107 @@ font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.multiple-items .slick-dots {
+  bottom: -4rem;
+}
+
+.multiple-items .slick-dots li button:before {
+  height: 12px;
+  background: #00a6d2;
+  border-radius: 5px;
+  content: ''!important;
+}
+
+/* PRODUCTS */
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.controls-item {
+  margin: 1.2rem auto 3rem;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 50px rgba(166, 209, 237, 0.2);
+  box-shadow: 0 10px 50px rgba(166, 209, 237, 0.2);
+}
+
+label {
+  font-weight: 300;
+  margin: 0 .4em 0 0;
+}
+
+.controls-item button {
+  padding: .5rem 1rem;
+  color: #00a6d2;
+  font-weight: 600;
+  cursor: pointer;
+  background: #ffffff!important;
+  border: none;
+  font-size: 1rem;
+}
+
+.controls-item button.active {
+  background: #00a6d2!important;
+  color: #ffffff !important;
+}
+
+.controls-item button:focus {
+  outline: 0 none;
+}
+
+.container-filter {
+  text-align: justify;
+  font-size: 0.1px;
+  min-height: 32rem;
+  -webkit-backface-visibility: hidden;
+}
+
+.container-filter .mix,
+.container-filter .gap {
+  display: inline-block;
+  width: 100%;
+  height: 30rem;
+  margin-right: 10px;
+}
+
+.container-filter .mix {
+  text-align: left;
+  margin-bottom: 3rem;  
+  display: none;
+}
+
+
+.card-product {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 10px 50px rgba(166, 209, 237, 0.2);
+}
+
+.img-product, .body-product {
+  height:   50%;
+  width: 100%;
+}
+
+.img-product img {
+  object-fit: cover;
+}
+
+.body-product {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.title-product {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.description-product p {
+  font-size: 1rem;
 }

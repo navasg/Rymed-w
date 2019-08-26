@@ -11,14 +11,19 @@ $('.banner-slick').slick({
 $('.multiple-items').slick({
   infinite: true,
   slidesToShow: 5,
+  dots: true,
   slidesToScroll: 3
 });
 
-wow = new WOW(
-  {
-    animateClass: 'animated',
-    mobile: false,
-    offset: 100,
-  }
-);
-wow.init();
+$(function () {
+  $('#Container-filter').mixItUp();
+});
+
+// wow = new WOW(
+//   {
+//     animateClass: 'animated',
+//     mobile: false,
+//     offset: 100,
+//   }
+// );
+// wow.init();
