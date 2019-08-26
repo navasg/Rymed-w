@@ -27,3 +27,13 @@ $(function () {
 //   }
 // );
 // wow.init();
+
+$('.testimonies').slick({
+  arrows: false,
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  autoplay: true,
+});
