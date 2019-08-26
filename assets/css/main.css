@@ -194,10 +194,45 @@ font-size: 1.5rem;
   text-align: center;
 }
 
+.icon-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .icon-service img{
   width: 4rem;
   margin-bottom: 1rem;
 }
+
+.slick-next, .slick-prev {
+  top: initial;
+  bottom: -2rem;
+  right: 0;
+}
+
+.slick-prev {
+  left: initial;
+  right: 2rem;
+}
+
+.slick-next:before , .slick-prev:before {
+  color: #2f2f2f;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.5rem;
+}
+
+.slick-next:before {
+  content: "\f054"!important;
+
+}
+
+
+.slick-prev:before {
+  content: "\f053"!important;
+
+}
+
 
 .item-service {
   display: flex;
@@ -208,7 +243,7 @@ font-size: 1.5rem;
 
 .category {
   font-weight: 600;
-  margin-bottom: 0;
+  margin-bottom: .5rem;
   color: #00a6d2;
 }
 
