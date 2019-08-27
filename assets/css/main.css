@@ -296,6 +296,10 @@ label {
   margin: 0 .4em 0 0;
 }
 
+.card-product  img {
+  /* object-fit: contain; */
+}
+
 .controls-item button {
   padding: .5rem 1rem;
   color: #00a6d2;
