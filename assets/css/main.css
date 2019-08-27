@@ -456,7 +456,8 @@ label {
 
 .avatar-testimonie img {
   border-radius: 5px;
-  box-shadow: 0 10px 50px -5px rgba(0,0,0,.4);
+  width: 14rem;
+  /* box-shadow: 0 10px 50px -5px rgba(0,0,0,.4); */
 }
 .name-testimonie {
   margin: 1.5rem 0;
