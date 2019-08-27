@@ -19,16 +19,18 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css">
   <!-- <link rel="stylesheet" href="assets/css/medias.css"> -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/offcanvas.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/medias.css">
   <?php wp_head(); ?>
 </head>
 
 <body>
   <!-- HEADER -->
-  <header class="">
+ <!-- HEADER -->
+ <header class="">
     <nav class="navbar navbar-expand-lg">
-      <div class="container">
+      <div class="box-nav">
         <a class="navbar-brand mr-auto mr-lg-0" href="index.html">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/logowhite.svg">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg">
         </a>
         <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
           <i class="fa fa-bars" aria-hidden="true"></i>
@@ -36,7 +38,7 @@
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
           <div class="btn-nav">
             <a class="navbar-brand mr-auto mr-lg-0 logo-responsive" href="index.html">
-              <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.svg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="">
             </a>
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
               <i class="fa fa-times" aria-hidden="true"></i>
@@ -64,6 +66,16 @@
               <li class="nav-item">
                 <a class="nav-link nav-custom" data-toggle="offcanvas" href="plans.html">Servicios</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="plans.html">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="plans.html">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
 
               <!-- <li class="nav-item contact-responsive">
                 <a class="nav-link nav-custom" data-toggle="offcanvas" href="#contact">Asistencia Técnica</a>
@@ -75,4 +87,5 @@
     </nav>
     </div>
   </header>
+  <!-- END HEADER -->
   <!-- END HEADER -->
