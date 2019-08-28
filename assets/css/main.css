@@ -581,3 +581,19 @@ justify-content: center;
 .detail-service  {
   padding-bottom: 0;
 }
+
+.link-product {
+  display: block;
+  font-size: 20px;
+  color: #858585;
+  text-decoration: none;
+  padding: 35px 15px;
+  background: white;
+  border-bottom: 1px solid #d4d4d4!important;
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  cursor: pointer;
+  text-align: inherit;
+}
