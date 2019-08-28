@@ -20,6 +20,8 @@
   <!-- <link rel="stylesheet" href="assets/css/medias.css"> -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/offcanvas.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/medias.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/detalle.css">
+
   <?php wp_head(); ?>
 </head>
 
@@ -29,7 +31,7 @@
  <header class="">
     <nav class="navbar navbar-expand-lg">
       <div class="box-nav">
-        <a class="navbar-brand mr-auto mr-lg-0" href="index.html">
+        <a class="navbar-brand mr-auto mr-lg-0" href="<?php bloginfo('url') ?>/">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg">
         </a>
         <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
@@ -37,7 +39,7 @@
         </button>
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
           <div class="btn-nav">
-            <a class="navbar-brand mr-auto mr-lg-0 logo-responsive" href="index.html">
+            <a class="navbar-brand mr-auto mr-lg-0 logo-responsive" href="<?php bloginfo('url') ?>/">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="">
             </a>
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
@@ -47,24 +49,24 @@
           <div class="nav-flex">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="index.html">Inicio</a>
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="<?php bloginfo('url') ?>/">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="about.html">WebPay</a>
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="www.webpay.com">WebPay</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-custom link-product" data-toggle="offcanvas" href="ubication.html">Productos</a>
+                <a class="nav-link nav-custom link-product" data-toggle="offcanvas" href="<?php bloginfo('url') ?>/productos">Productos</a>
                 <ul class="option-nav">
                   <li>
-                    <a class="nav-link nav-custom" href="">Equipos</a>
+                    <a class="nav-link nav-custom" href="#equipos">Equipos</a>
                   </li>
                   <li>
-                    <a class="nav-link nav-custom" href="">Insumos</a>
+                    <a class="nav-link nav-custom" href="#equipos">Insumos</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="plans.html">Servicios</a>
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="<?php bloginfo('url') ?>/index.php/detalle-service">Servicios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-custom" data-toggle="offcanvas" href="plans.html">
