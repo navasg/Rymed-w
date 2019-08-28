@@ -3,10 +3,14 @@
     font-size: 13px;
   }
 
+  header .navbar-brand {
+    position: initial;
+  }
+
   /* BANNER */
 
   .mask-banner {
-    background: #00a6d24d;
+    background: #0000009c;
     text-align: center;
     z-index: 1;
     width: 100%;

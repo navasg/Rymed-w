@@ -1,9 +1,15 @@
+
 @import url('https://fonts.googleapis.com/css?family=Muli:400,700,800,900&display=swap');
 
 body {
   font-family: 'Muli', sans-serif;
 
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: 'Muli', sans-serif;
   margin: 0;
@@ -37,6 +43,7 @@ body {
 header {
   /* position: absolute; */
   width: 100%;
+  position: relative;
   z-index: 1;
 }
 
@@ -128,7 +135,14 @@ display:none;
   justify-content: flex-end;
     width: 100%;
   align-items: center;
-  margin-left: 3rem;
+}
+
+header .navbar-brand {
+  position: absolute;
+}
+
+header .navbar-nav {
+  width: 50%;
 }
 /* BANNER */
 .banner-slick {
@@ -188,11 +202,13 @@ display:none;
   position: absolute;
   display: flex;
   z-index: 1;
-  left: 52%;
+  justify-content: flex-end;  
   width: 100%;
-  align-items: flex-end;
   height: 100%;
+}
 
+.nav-item {
+  flex: 1;
 }
 
 
@@ -420,6 +436,16 @@ label {
   text-align: center;
 }
 
+.body-product .description-product p {
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  overflow: hidden;
+  height: 6rem;
+}
+
 .title-product {
   font-size: 1.5rem;
   font-weight: 600;
@@ -429,6 +455,24 @@ label {
   font-size: 1rem;
   color: #828282;
   
+}
+
+.btn-product {
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  color: #fff;
+  background: #00a6d2;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: .5s;
+
+}
+
+.btn-product:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #0694b9;
+  transition: .5s;
 }
 
 /* TESTIMONIE */
