@@ -65,7 +65,7 @@
     padding: 10px 3% 3% 3%;
   }
   #vertical_tab_nav article p {
-    font-size: 20px;
+    font-size: 1rem;
     margin: 0 0 28px;
   }
   
@@ -135,3 +135,11 @@
     }
   }
   
+
+  .items-halo li {
+    margin-bottom: 1rem;
+  }
+
+  .joule img, .img-diva, .bbl-img {
+    width: 100%;
+  }
