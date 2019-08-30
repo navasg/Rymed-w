@@ -209,6 +209,7 @@ header .navbar-nav {
 
 .img-banner video {
   width: 50%;
+  background: #00a6d2;
 }
 
 .nav-item {
@@ -229,9 +230,7 @@ header .navbar-nav {
 } */
 
 .text-banner {
-  width: 50%;
   margin-left: 5rem;
-
 
 }
 
