@@ -1,4 +1,19 @@
 @media screen and (min-width: 0px) and (max-width: 997px) {
+  .main-banner .mask .main-banner__text .main-banner__title p {
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .main-footer__form {
+    width: 100%;
+  }
+
+  .logo-responsive {
+    display: block;
+  }
+
+
+
   html {
     font-size: 13px;
   }
@@ -42,12 +57,32 @@
   }
 
   .navbar-nav {
-    width: 100%;
-    align-items: initial!important;
+    width: 100% !important;
+    align-items: initial !important;
   }
 
   .nav-flex {
     margin: 0;
+  }
+
+  .nav-item {
+    background: #fff !important;
+  }
+
+  .nav-custom {
+    color: #525151 !important;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .nav-link i {
+    color: #525151 !important;
+  }
+
+  .navbar {
+    background: #fff;
   }
 }
 

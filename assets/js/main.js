@@ -4,10 +4,11 @@ $('.banner-slick').slick({
   infinite: true,
   speed: 500,
   fade: true,
-  dots:true,
+  dots: true,
   cssEase: 'linear',
   autoplay: false,
 });
+
 
 $('.multiple-items').slick({
   infinite: true,
@@ -15,8 +16,7 @@ $('.multiple-items').slick({
   dots: true,
   arrows: false,
   slidesToScroll: 3,
-  responsive: [
-    {
+  responsive: [{
       breakpoint: 997,
       settings: {
         slidesToShow: 2,
@@ -64,8 +64,7 @@ $('.carousel-service').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   infinite: false,
-  responsive: [
-    {
+  responsive: [{
       breakpoint: 997,
       settings: {
         slidesToShow: 2,
@@ -83,7 +82,7 @@ $('.carousel-service').slick({
 });
 
 // detslle
-$(document).ready(function() {
+$(document).ready(function () {
   // Select the first tab by default
 
   $("#vertical_tab_nav > ul > li > a")
@@ -95,7 +94,7 @@ $(document).ready(function() {
 
   // This assigns an onclick event to each tab link("a" tag) and passes a parameter to the showHideTab() function
 
-  $("#vertical_tab_nav > ul").click(function(e) {
+  $("#vertical_tab_nav > ul").click(function (e) {
     if ($(e.target).is("a")) {
       /*Handle Tab Nav*/
       $("#vertical_tab_nav > ul > li > a").removeClass("active");
@@ -115,7 +114,7 @@ $(document).ready(function() {
 }); //end ready
 
 /* Accordian */
-$(".tab_heading").click(function() {
+$(".tab_heading").click(function () {
   $("article").hide();
   var activeTab = $(this).attr("rel");
   $("#" + activeTab).slideDown();
