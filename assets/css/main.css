@@ -327,20 +327,6 @@ header .navbar-nav {
 }
 
 
-
-
-/* .best p {
-  font-size: 15px;
-  padding: 15px 0;
-  display: -webkit-box;
-  display: -moz-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  overflow: hidden;
-  height: 80px;
-} */
-
 .text-banner {
   margin-left: 5rem;
 
@@ -800,4 +786,12 @@ button {
 
 .main-contact {
   padding-top: 100px;
+}
+
+.tab-content {
+  margin-top: 50px;
+}
+
+.nav-pills li a {
+  font-weight: 600;
 }
