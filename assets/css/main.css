@@ -77,15 +77,18 @@ header {
 
 .nav-item:nth-child(1) {
   background: #de693d;
+  flex: 1;
 }
 
 
 .nav-item:nth-child(2) {
   background: #eaa049;
+  flex: 1;
 }
 
 .nav-item:nth-child(3) {
   background: #9ecd63;
+  flex: 1;
 }
 
 .nav-item:nth-child(4) {
@@ -323,9 +326,7 @@ header .navbar-nav {
   background: #00a6d2;
 }
 
-.nav-item {
-  flex: 1;
-}
+
 
 
 /* .best p {
