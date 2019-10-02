@@ -63,6 +63,7 @@ header {
 .nav-custom {
   color: #fff !important;
   /* padding-top: 0; */
+  text-align: center;
   transition: .5s;
   /* padding-bottom: 0; */
   font-weight: 600;
