@@ -5,6 +5,10 @@ body {
 
 }
 
+.main-contact .title-section{
+  margin-bottom: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
