@@ -6,7 +6,8 @@ $('.banner-slick').slick({
   fade: true,
   dots: true,
   cssEase: 'linear',
-  autoplay: false,
+  autoplay: true,
+  autoplaySpeed: 6000,
 });
 
 
