@@ -1,4 +1,9 @@
 @media screen and (min-width: 0px) and (max-width: 997px) {
+
+  .img-banner video {
+    width: 100%;
+  }
+
   .main-banner .mask .main-banner__text .main-banner__title p {
     font-size: 30px;
     padding: 0;
@@ -88,7 +93,11 @@
 
 @media screen and (min-width: 769px) and (max-width: 1224px) {
   .text-banner {
-    width: 50%;
-    margin-left: 3rem;
+    width: 60%;
+    margin-left: 4rem;
+  }
+
+  .img-banner video {
+    width: 100%;
   }
 }

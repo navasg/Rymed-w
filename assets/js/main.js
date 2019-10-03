@@ -8,6 +8,34 @@ $('.banner-slick').slick({
   cssEase: 'linear',
   autoplay: true,
   autoplaySpeed: 6000,
+  responsive: [{
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        autoplay: true,
+        arrows: false,
+        autoplaySpeed: 1000
+      }
+    }
+  ]
 });
 
 
