@@ -21,7 +21,9 @@ $('.banner-slick').slick({
       breakpoint: 900,
       settings: {
         slidesToShow: 1,
+        autoplaySpeed: 4000,
         slidesToScroll: 1
+
       }
     },
     {
@@ -32,7 +34,7 @@ $('.banner-slick').slick({
         dots: false,
         autoplay: true,
         arrows: false,
-        autoplaySpeed: 1000
+        autoplaySpeed: 4000
       }
     }
   ]
